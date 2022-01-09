@@ -1,0 +1,143 @@
+@media screen and (max-width: 767.98px) {
+  /* ========================================================================== */
+  /*                                    .HEAD                                   */
+  /* ========================================================================== */
+  // .head-title
+  .head-title {
+    width: 80%;
+  }
+
+  // .head-button
+  .head-button {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    button {
+      width: 100%;
+    }
+  }
+
+  /* ========================================================================== */
+  /*                                    .SEC1                                   */
+  /* ========================================================================== */
+  // .sec1-title
+  .sec1-title {
+    width: 80%;
+  }
+
+  //   .sec1-info
+  .sec1-info {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 0;
+
+    .sec1-img {
+      width: 100%;
+      margin-left: auto;
+    }
+
+    .sec1-colum {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  /* ========================================================================== */
+  /*                                    .SEC3                                   */
+  /* ========================================================================== */
+  //   .sec3-title
+  .sec3-title {
+    padding: 0 2rem;
+
+    h2 {
+      line-height: 1.2;
+    }
+  }
+
+  //   .sec3-info
+  .sec3-info {
+    grid-template-columns: 1fr;
+  }
+
+  //   .sec3-company
+  .sec3-company {
+    grid-template-columns: 1fr;
+    padding: 0 2rem;
+    gap: 3rem;
+
+    img {
+      width: 50%;
+      margin: auto;
+    }
+  }
+  /* ========================================================================== */
+  /*                                    .SEC4                                   */
+  /* ========================================================================== */
+  .sec4 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  // .sec4-title
+  .sec4-title {
+    width: 80%;
+  }
+
+  //   .sec4-button
+  .sec4-button {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    button {
+      width: 100%;
+    }
+  }
+  /* ========================================================================== */
+  /*                                    .FOOT                                   */
+  /* ========================================================================== */
+
+  .foot {
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  //   .foot-info
+  .foot-info {
+    padding-top: 2rem;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    margin-left: 0;
+
+    .info-block {
+      align-items: center;
+    }
+  }
+
+  //   .foot-icon
+  .foot-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    padding: 1rem 0;
+  }
+}
